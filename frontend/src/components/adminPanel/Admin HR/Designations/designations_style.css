@@ -1,0 +1,247 @@
+/*!******************************* MAIN COMPONENT *******************************!*/
+.designationsMainComponent{
+    position: absolute;
+    top: 80px;
+    left :0px;
+    bottom: 0px;
+    width : 100%;
+    z-index: -1;
+    background-color: #1e272e;
+}
+
+.designationsSubComponent{
+    position: absolute;
+    top: 70px;
+    left :0px;
+    bottom: 0px;
+    width : 82%;
+    z-index: -1;
+    padding: 20px;
+}
+
+.designations_table_view{
+    overflow: scroll;
+    margin-bottom: 10px;
+}
+.designations_table_view::-webkit-scrollbar{
+    display: none;
+}
+.designationsTable{
+    margin-top: 10px;
+    align-items: center;
+    width: 100%;
+}
+.designations_table_head {
+    width : 20%;
+    color: #a4b0be;
+    background-color: #2f3640;
+    font-weight: bolder;
+    height: 40px;
+}
+
+.designations_table_data_odd{
+    width: 20%;
+    background-color: #1e272e;
+    color: white ;
+}
+.designations_table_data_even{
+    width: 20%;
+    background-color: #2f3640;
+    color: white ;
+
+}
+.designations_table_header_column {
+    border-right: 1px solid #57606f;
+    text-align: center;
+}
+.designations_table_header_column_more{
+    border-left: 1px solid #57606f;
+    text-align: center;
+}
+.designations_table_data_column {
+    border-right: 1px solid #57606f;
+    text-align: center;
+}
+.designations_table_data_column_more {
+    border-right: 0px solid #57606f;
+}
+.designations_moreButton {
+    background-color: red;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.designations_moreButton:hover{
+    background: black;
+    transition: 1s;
+}
+
+
+.hrText {
+    color: white;
+}
+
+.designations_display_all_button{
+    color:  #a4b0be;
+    text-align: center;
+    cursor: pointer;
+    width :40%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 20px;
+    padding: 5px;
+    transition: 1s;
+    box-shadow: 0px 0px 10px 1px #a4b0be;
+}
+.designations_display_all_button:hover{
+    color: red;
+    text-align: center;
+    cursor: pointer;
+    width :40%;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 5px;
+    box-shadow: 0px 0px 10px 1px rgb(250, 12, 4);
+    transition: 1s;
+}
+
+.des_display_error_message{
+    color:  red;
+    text-align: center;
+    cursor: pointer;
+    width :40%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 20px;
+    padding: 5px;
+    visibility: visible;
+}
+
+.des_hide_error_message{
+    color:  red;
+    text-align: center;
+    cursor: pointer;
+    width :40%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 20px;
+    padding: 5px;
+    visibility: hidden;
+}
+.loadingText{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+@media only screen and (max-width: 991px) {
+    .designationsMainComponent {
+        position: absolute;
+        top: 250px;
+        left: 0px;
+        bottom: 0px;
+        padding-top: 80px;
+        width: 100%;
+        z-index: -1;
+        background-color: #1e272e;
+    }
+
+    .designationsSubComponent {
+        position: static;
+        width: 100%;
+        z-index: -1;
+        background-color: #1e272e;
+        padding-bottom: 20px;
+    }
+}
+
+/******************************* SIDE BAR ***********************************/
+.sideBarDesignationsComponent {
+    position: absolute;
+    top: 00px;
+    right :0px;
+    bottom: 0px;
+    width : 18%;
+    z-index: -1;
+    background-color: #2f3640;
+    /*display: grid;*/
+    /*grid-template-rows: 20% 80%;*/
+}
+
+.designationsSideBarTitle{
+    color: #a4b0be;
+    text-align: center;
+    margin: 10px;
+    height: 80px;
+}
+
+.designations_sidebar_employees_container{
+    position: absolute;
+    top: 80px;
+    padding-top: 10px;
+    bottom: 0px;
+    overflow: scroll;
+    width: 100%;
+}
+.designations_sidebar_employees_container::-webkit-scrollbar{
+    display: none;
+}
+.designations_sidebar_employee{
+    height: 200px;
+    width:90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    background: #1e272e;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#designations_sidebar_employee0 {
+    box-shadow: 0px 0px 10px 1px rgb(250, 12, 4);
+}
+#designations_sidebar_employee1 {
+    box-shadow: 0px 0px 10px 1px rgb(101, 59, 141);
+}
+#designations_sidebar_employee2 {
+    box-shadow: 0px 0px 10px 1px rgb(248, 171, 4);
+}
+#designations_sidebar_employee3 {
+    box-shadow: 0px 0px 10px 1px blue;
+}
+.designations_sidebar_error{
+    margin:10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.designations_sidebar_employee_name{
+    color:#a4b0be;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#designations_sidebar_employee_email{
+    font-size: 10px;
+    color: red;
+}
+.designations_sidebar_employee_image{
+    width: 50%;
+    height: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.designations_employee_avatar{
+    width: 100%;
+    height: 100px;
+}
+@media only screen and (max-width: 991px) {
+    .sideBarLeaveComponent {
+        position: unset;
+        bottom: unset;
+        width: 100%;
+        padding-top: 10px;
+        height: 200px;
+        z-index: -1;
+        background-color: #2f3640;
+    }
+}

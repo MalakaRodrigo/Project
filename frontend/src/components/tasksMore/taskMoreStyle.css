@@ -1,0 +1,209 @@
+/*!******************************* MAIN COMPONENT *******************************!*/
+.tasksMoreMainComponent {
+    position: absolute;
+    top: 80px;
+    left :0px;
+    bottom: 0px;
+    padding-top: 80px;
+    width : 100%;
+    z-index: -1;
+    background-color: #1e272e;
+}
+
+.tasksMoreSubComponent {
+    position: absolute;
+    top: 0px;
+    left :0px;
+    bottom: 0px;
+    width : 82%;
+    z-index: -1;
+    background-color: #1e272e;
+    align-items: center;
+}
+.taskTitle{
+    color: white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.taskDetails{
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 70%;
+    background: #2f3640;
+    display: grid;
+    grid-template-rows: 15% 90%;
+    margin-bottom: 0px;
+    overflow: scroll;
+    border-top: 1px solid #eb4d4b;
+    border-radius: 20px;
+    border-width: 2px;
+    box-shadow: 0px 1px 20px #eb4d4b;
+}
+.taskDetails::-webkit-scrollbar{
+    display: none;
+}
+.taskMoreHeader{
+    color: white;
+    text-align: center;
+    color: red;
+    margin: 0px;
+    padding: 30px;
+    border-radius: 100px;
+    
+}
+.taskMoreDetails{
+    padding: 30px;
+    margin: 0px;
+    color:white;
+    /*background: #a4b0be;*/
+    border-radius: 100px;
+}
+
+@media only screen and (max-width: 991px) {
+    .tasksMainComponent {
+        position: absolute;
+        top: 250px;
+        left :0px;
+        bottom: 0px;
+        padding-top: 80px;
+        width : 100%;
+        z-index: -1;
+        background-color: #1e272e;
+    }
+
+    .tasksSubComponent {
+        position: static;
+        width : 100%;
+        z-index: -1;
+        background-color: #1e272e;
+        padding-bottom: 20px;
+    }
+
+    .searchBar {
+        position: unset;
+        align-items: center;
+        border-color: #1e272e;
+        display: grid;
+        grid-template-columns: 70% 5% 25%;
+        background-color: #2f3640 ;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+
+    .tasksTable {
+        position: unset;
+    }
+
+    .goToTaskBoardButton{
+        position: unset;
+        bottom: 20px;
+        right: 20px;
+        width: 80px;
+        height: 80px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+        padding: 10px;
+        background: #2f3640;
+        border-radius: 100px;
+        border: 2px solid #57606f;
+        padding-top: 20px;
+        margin:20px;
+    }
+
+}
+
+
+/******************************* SIDE BAR ***********************************/
+.sideBarMoreComponent {
+    position: absolute;
+    top: 00px;
+    right :0px;
+    bottom: 0px;
+    width : 18%;
+    z-index: -1;
+    background-color: #2f3640;
+    /*display: grid;*/
+    /*grid-template-rows: 20% 80%;*/
+}
+.sidebarMoreHeader{
+    width: 100% ;
+    color: #a4b0be;
+    font-weight: bolder;
+    font-size: 25px;
+    height: 10%;
+    margin: 0px;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sideBarMoreSubContainer{
+    width: 100%;
+    height: 80%;
+    padding-top: 10%;
+    overflow: scroll;
+}
+.sideBarMoreSubContainer::-webkit-scrollbar{
+    display: none;
+}
+.taskMoreElement{
+    padding:10px;
+    background: #1e272e;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 1px red;
+}
+.taskMoreElementName {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.taskMoreElementPosition{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.taskMoreElementEmail {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background: red;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.taskMore_errorMessage{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 991px) {
+    .sideBarComponent{
+        position: unset;
+        bottom: unset;
+        width: 100%;
+        padding-top: 10px;
+        height: 200px;
+        z-index: -1;
+        background-color: #2f3640;
+    }
+}
+
+.title {
+    color : white;
+}

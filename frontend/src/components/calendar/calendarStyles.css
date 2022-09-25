@@ -1,0 +1,174 @@
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.Paper {
+  position: absolute;
+  top: 80px;
+  bottom: 0px;
+  left: 35.0px;
+  width: 75.0%;
+  z-index: 0;
+  font-family: sans-serif;
+  background-color: #1e272e;
+}
+body {
+  background-color: #1e272e;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.sidecontainer {
+  position: fixed;
+  top: 80px;
+  right: 0px;
+  bottom: 0px;
+  padding-top: 0px;
+  width: 18%;
+  z-index: 0;
+  color: white;
+  background-color: #2f3640;
+}
+
+.tabledata {
+  z-index: 50;
+  color: #ffffff;
+}
+
+.Shedular {
+  position: absolute;
+  z-index: 0;
+}
+
+table {
+  z-index: 0;
+  background-color: #1e272e;
+}
+
+.mainComponent {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding-top: 80px;
+  width: 30%;
+  z-index: -1;
+  background-color: #1e272e;
+}
+
+@media only screen and (max-width: 991px) {
+  .mainComponent {
+    position: absolute;
+    top: 450px;
+    right: 0px;
+    bottom: 0px;
+    padding-top: 10px;
+    width: 30%;
+    z-index: -1;
+    background-color: #1e272e;
+  }
+}
+
+.title {
+  color: white;
+}
+
+.loadingbuttonmain {
+  position: absolute;
+  top: 420px;
+  left: 555px;
+  padding: 10px;
+  background-color: transparent;
+  color: rgb(190, 33, 33);
+  z-index: 21;
+  position: absolute;
+  border: 0px;
+  font-family: sans-serif;
+}
+
+.changesmain {
+  text-align: left;
+  font-family: Tahoma;
+  font-size: 15px;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  height: 40%;
+  margin-top: 200px;
+  width: 100%;
+  padding-left: 20px;
+  padding-bottom: 35px;
+  z-index: 0;
+  position: absolute;
+  border: 0px;
+}
+.changesmainwithdata {
+  text-align: left;
+  font-family: Tahoma;
+  font-size: 15px;
+  top: 0px;
+  left: 0%;
+  height: 40%;
+  margin-top: 30px;
+  width: 100%;
+  padding-left: 20px;
+  padding-bottom: 35px;
+  z-index: 0;
+  position: absolute;
+  border: 0px;
+}
+
+.lastprojects {
+  margin-top:0%;
+  width:90%;
+  margin-left:12px;
+  margin-right:10px;
+  box-shadow: 0px 5px 10px 1px rgb(250, 12, 4);
+  font-size: 2.5vh;
+  border-radius: 10px;
+  color: #ffffff;
+  overflow: auto;
+  max-height: 300px;
+}
+.sideBarcalendar{
+  position: absolute;
+    top: 80px;
+    right :0px;
+    bottom: 0px;
+    width : 18%;
+    z-index: -1;
+    background-color: #2f3640;
+    /*display: grid;*/
+    /*grid-template-rows: 20% 80%;*/
+}
+.sideBarMorecal{
+  width: 100%;
+  height: 80%;
+  padding-top: 10px;
+  overflow: scroll;
+}
+.sideBarMorecal::-webkit-scrollbar{
+  display: none;
+}
+.taskMoreElementcal{
+  padding:10px;
+  background: #1e272e;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 110px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 1px red;
+}
+.taskMoreElementEmailcal {
+  color: white;
+  text-align: center;
+  width: 50%;
+  font-size: 12px;
+  color: white;
+  background: red;
+  margin-top: 5px;
+  border-radius: 10px;
+  margin-left: 25%;
+}

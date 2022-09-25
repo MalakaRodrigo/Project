@@ -1,0 +1,108 @@
+
+
+.admintimeline{
+    position: absolute;
+    left: 10%;
+    right: 0;
+    width: 60%;
+   margin-left: 0px;
+   box-shadow: 0px 0px 10px 1px rgb(250, 12, 4);
+}
+.employelist{
+    padding-left: 0px;
+}
+.rowStyle{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+@media only screen and (max-width: 991px) {
+    .admintimeline{
+        margin-left: 0px;  
+    }
+}
+.admintableheader{
+    margin-top: 10px;
+    color: azure;
+    background-color:rgb(250, 12, 4) ;
+    font-size: 30px;
+
+}
+.timelinetext{
+    color: azure;
+    font-size: 2vh;
+}
+
+.searchbartimline{
+    position: static;
+    background-color: #2f3640 ;
+    border:none;
+    padding: 0;
+    color:azure;
+    width: 50%;
+    
+  
+}
+.searchbarplacement{
+    text-align: right;
+}
+.searchtimlineimage{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+
+}
+.timelinetable{
+        position: relative;
+        height: 600px;
+        overflow: scroll;
+}
+
+.overdueprojectadmin{
+    margin-left: 35px;
+    margin-right: 35px;
+    height: 300px;
+    box-shadow: 0px 0px 10px 1px rgb(250, 12, 4);
+
+}
+.overduebutton{
+    width:100%;
+    height:10%;
+    color: azure;
+    background-color: #031d31;
+   
+}
+.overduebuttonnumber{
+    font-size: 6vh;
+    
+    
+    
+}
+.noverdueadmin{
+    font-size: 4vh;
+    position: static;
+
+}
+.nooverdueimgadmin{
+    height: 11vh;
+    width: 11vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+  }
+  .table_data_oddli{
+    width: 100%;
+    height: 120px;
+    background-color: #2f3640;
+    color: white ;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  .table_data_evenli{
+    width: 100%;
+    height: 120px;
+    background-color: #1e272e;
+    color: white ;
+    padding-left: 15px;
+    padding-top: 15px;
+  }

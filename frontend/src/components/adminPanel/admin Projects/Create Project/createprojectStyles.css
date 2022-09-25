@@ -1,0 +1,212 @@
+
+.createtaskform{
+  position: absolute;
+  left:190px
+}
+
+.h1project{
+  padding-top: 10px;
+  color:#ffffff;
+}
+
+
+.labels {
+  padding-top: 10px;
+}
+
+.MuiChip-root {
+  width: 130px;
+}
+
+.buttonsubmit {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #1e272e;;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 4px;
+  width: 200px;
+  height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 4px;
+}
+
+.buttonsubmit span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonsubmit span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonsubmit:hover span {
+  padding-right: 25px;
+}
+
+.buttonsubmit:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.closebuttonactualproject {
+  position: absolute;
+  top:110px;
+  left: 60%;
+  padding: 10px;
+  background-color: transparent;
+  color: rgb(190, 33, 33);
+  z-index: 21;
+  position: absolute;
+  border: 0px;
+  font-weight: bold;
+}
+.marginedit{
+  margin:20px;
+}
+
+.loadingbutton {
+    position: absolute;
+    top: 420px;
+    left:37%;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(190, 33, 33);
+    z-index: 21;
+    position: absolute;
+    border: 0px;
+  }
+  .buttonsubmitclearproject{
+    color:#262c30;
+    top: 120px;
+    
+    padding: 0px;
+    background-color: transparent;
+    color: rgb(190, 33, 33);
+    z-index: 21;
+    border: 0px;
+    right: 0px;
+    font-weight: bold;
+  }
+
+  .h1{
+    color:red;
+    opacity: 0.7;
+  }
+
+  .bodyappear1createproject{
+    z-index: 10;
+    position: fixed;
+    left: 66%;
+    bottom: 0px;
+    top: 100px;
+  }
+  
+  
+  .bodyappear2createproject{
+    z-index: 10;
+    position: fixed;
+    left: 78%;
+    bottom: 0px;
+    top: 100px;
+  }
+  
+  
+  .bodyappear3createproject{
+    z-index: 10;
+    position: fixed;
+    left: 66%;
+    bottom: 0px;
+    top: 300px;
+  }
+  
+  .bodyappear4createproject{
+    z-index: 10;
+    position: fixed;
+    left: 78%;
+    bottom: 0px;
+    top: 300px;
+  }
+  
+  
+  .buttoncreateproject {
+    color: rgb(189, 27, 27);
+    box-sizing: content-box;
+    height: 95px;
+    background: #252e35;
+    font-size: 20px;
+    text-align: left;
+    width: 50px;
+    padding: 90px;
+    padding-top: 10px;
+    padding-left: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    opacity: 0.8;
+  }
+  .buttoncreateproject span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .buttoncreateproject span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .buttoncreateproject:hover {
+    background-color: #2f3640;
+    opacity: 0.5;
+  }
+  .buttoncreateproject:hover span {
+    padding-right: 25px;
+  }
+  .buttoncreateproject:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .ring1{
+    left:45%
+  }
+  .fc{
+    color: #a4b0be;
+  }
+  .mainc{
+    width: 70%;
+    background-color: white;
+  }
+  .Mu{
+    font: inherit;
+    color: white;
+    width: 100%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+  }

@@ -1,0 +1,68 @@
+.bodyappear1analyze {
+    z-index: 10;
+    position: fixed;
+    left: 87%;
+    bottom: 0px;
+    top: 80px;
+  }
+  
+  
+  .bodyappear2analyze {
+    z-index: 10;
+    position: fixed;
+    left: 87%;
+    bottom: 0px;
+    top: 280px;
+  }
+  
+  .bodyappear3analyze {
+    z-index: 10;
+    position: fixed;
+    left: 87%;
+    bottom: 0px;
+    top: 480px;
+  }
+  
+  
+  .buttonanalyze {
+    color: rgb(189, 27, 27);
+    box-sizing: content-box;
+    height: 95px;
+    background: #252e35;
+    font-size: 20px;
+    text-align: left;
+    width: 50px;
+    padding: 90px;
+    padding-top: 10px;
+    padding-left: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    opacity: 0.8;
+  }
+  .buttonanalyze span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .buttonanalyze span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .buttonanalyze:hover {
+    background-color: #191b3a;
+    opacity: 0.5;
+  }
+  .buttonanalyze:hover span {
+    padding-right: 25px;
+  }
+  .buttonanalyze:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

@@ -1,0 +1,62 @@
+****************************************************************************************
+******************************* API DOCUMENTATION **************************************
+****************************************************************************************
+
+************************************ TASKS *********************************************
+
+(1) Add Task : - http://localhost:8070/task/addTask (POST Request)
+{
+	"task_name" : "Task5",
+	"due_date" : "2021-09-22",
+	"action" : "Details DetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetails Details DetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetails Details DetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetails",
+	"task_status" : "Review",
+	"project_id" : "61894749025c067551f67960",
+	"project_name" : "ChanukaProject2",
+	"assigned_to" : ["616c0f21ed8a2f5dedb2a989"]
+}
+
+(2) Delete Task : - http://localhost:8070/task/deleteTask (POST Request)
+{
+	"task_id" : "618c9cc21faf20c663e28aa7"
+}
+
+(3) Update Task : - http://localhost:8070/task/update (POST Request)
+{
+	"task_id":"618c9c061faf20c663e28a95",
+	"task_name" : "Task5 updated",
+	"due_date" : "2021-09-22",
+	"action" : "Details DetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetails Details DetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetails Details DetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetailsDetails",
+	"task_status" : "Review",
+	"project_id" : "61894749025c067551f67960",
+    "project_name" : "ChanukaProject2",
+	"assigned_to" : ["616c0f21ed8a2f5dedb2a989"]
+}
+
+(4) Get All Tasks : - http://localhost:8070/task  (GET Request)
+
+(5) Get Task By Id : - http://localhost:8070/task/getTaskById  (POST Request)
+{
+	"task_id":"618c9bfb1faf20c663e28a93"
+}
+
+(6) Get Task By name : -  http://localhost:8070/task/getTasksByName (POST Request)
+{
+	"project_id" :"61894731025c067551f6795d",
+	"task_name":"Task5"
+}
+
+(7) Get Tasks Of Project : - http://localhost:8070/task/getTasksOfProject  (POST Request)
+{
+	"project_id" :"61894731025c067551f6795d"
+}
+
+(8) Get Task By Assigned To : - http://localhost:8070/task/getTaskByAssignedTo   (POST Request)
+{
+	"assigned_to" :"616c0f21ed8a2f5dedb2a989"
+}
+
+(9) Update Status  : - http://localhost:8070/task/updateStatus  (POST Request)
+{
+	"task_status" :"Done",
+	"task_id" : "618c9bfb1faf20c663e28a93"
+}

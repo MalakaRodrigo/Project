@@ -1,0 +1,9 @@
+frontend/node_modules
+Backend/node_modules
+.DS_Store
+.idea/
+frontend/.DS_Store
+frontend/src/.DS_Store
+frontend/package-lock.json
+Backend/package-lock.json
+Backend/uploads

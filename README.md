@@ -1,2 +1,9 @@
-# Project
-Software engineering group project - semester 4
+# PROJECT
+
+# Install dependencies for server
+npm install
+
+# Run the server
+npm start
+
+# Server runs on http://localhost:8070 

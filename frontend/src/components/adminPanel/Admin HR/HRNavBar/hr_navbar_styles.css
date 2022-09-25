@@ -1,0 +1,27 @@
+#hr_navbar{
+    top: 0px;
+    width: 50%;
+    height: 50px;
+    background: #1e272e;
+    /**/
+    padding : 10px;
+}
+
+.hr_navbar_element{
+    background: #2f3640;
+    margin: 10px;
+    width: 120px;
+    border-bottom: red;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+    .hr_navbar{
+        height: 250px;
+    }
+}
+
+

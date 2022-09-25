@@ -1,0 +1,258 @@
+/*!******************************* MAIN COMPONENT *******************************!*/
+.tasksBoardComponent {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+.tasksBoardSubComponent {
+    position: absolute;
+    top: 180px;
+    bottom: 0px;
+    left :1%;
+    right: 1%;
+    width : 80%;
+    overflow: scroll;
+    background-color: #1e272e;
+}
+
+.header{
+    position: absolute;
+    width: 82%;
+    top: 80px;
+    color: white;
+    height: 100px;
+    text-align: center;
+}
+.statusBarContainer {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px 400px;
+    height: 90%;
+    width: max-content;
+}
+.statusBar {
+    background: #2f3640;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100%;
+    justify-items: center;
+    overflow: scroll;
+    padding: 0;
+}
+
+
+.taskHeader {
+    color: #a4b0be;
+    font-weight: bolder;
+}
+.statusBarTitle{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.statusBarElement{
+    border-top: 1px solid #a4b0be;
+    padding:5px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.taskDetailHeader{
+    color: #a5b1c2;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.normalText{
+    color: red;
+}
+.toDo{
+    width: 90%;
+    height: 200px;
+    margin:20px 5% 20px 5% ;
+    background-color: #7d5fff;
+    color: white;
+    text-align: center;
+    padding-top:5px;
+    display: grid;
+    border-radius: 20px;
+    grid-template-rows: 20% 40% 40%;
+    cursor: pointer;
+}
+.inProgress{
+    width: 90%;
+    height: 200px;
+    margin:20px 5% 20px 5% ;
+    background-color: #eb4d4b;
+    color: white;
+    text-align: center;
+    padding-top:5px;
+    display: grid;
+    border-radius: 20px;
+    grid-template-rows: 20% 40% 40%;
+    cursor: pointer;
+}
+.done{
+    width: 90%;
+    height: 200px;
+    margin:20px 5% 20px 5% ;
+    background-color: #4834d4;
+    color: white;
+    text-align: center;
+    padding-top:5px;
+    display: grid;
+    border-radius: 20px;
+    grid-template-rows: 20% 40% 40%;
+    cursor: pointer;
+}
+.bugs{
+    width: 90%;
+    height: 200px;
+    margin:20px 5% 20px 5% ;
+    background-color: #535c68;
+    color: white;
+    text-align: center;
+    padding-top:5px;
+    display: grid;
+    border-radius: 20px;
+    grid-template-rows: 20% 40% 40%;
+    cursor: pointer;
+}
+.review{
+    width: 90%;
+    height: 200px;
+    margin:20px 5% 20px 5% ;
+    background-color: #8e44ad;
+    color: white;
+    text-align: center;
+    padding-top:5px;
+    display: grid;
+    border-radius: 20px;
+    grid-template-rows: 20% 40% 40%;
+    cursor: pointer;
+}
+#toDo {
+    border-top: 1px solid #7d5fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-width: 2px;
+    box-shadow: 0px 1px 1px #7d5fff;
+}
+#inProgress{
+    border-top: 1px solid #eb4d4b;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-width: 2px;
+    box-shadow: 0px 1px 1px #eb4d4b;
+}
+#done {
+    border-top: 1px solid #4834d4;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-width: 2px;
+    box-shadow: 0px 1px 1px #4834d4;
+}
+#bugs {
+    border-top : 1px solid #535c68;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-width: 2px;
+    box-shadow: 0px 1px 1px #535c68;
+}
+#review {
+    border-top: 1px solid #8e44ad;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-width: 2px;
+    box-shadow: 0px 1px 1px #8e44ad;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .tasksBoardComponent {
+        position: absolute;
+        top: 250px;
+        left :0px;
+        bottom: 0px;
+        width : 100%;
+        z-index: -1;
+    }
+    .tasksBoardSubComponent {
+        position: static;
+        width : 100%;
+        z-index: -1;
+        background-color: #1e272e;
+        padding-bottom: 20px;
+    }
+
+}
+
+/******************************* SIDE BAR ***********************************/
+.taskBoardSideBarComponent {
+    position: absolute;
+    top: 80px;
+    right :0px;
+    width : 18%;
+    height: 100%;
+    z-index: -1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #2f3640;
+}
+.taskBoardSideBarTitle{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.taskBoardSideBarElement {
+    background-color: #1e272e;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    cursor: pointer;
+    border-radius: 15px;
+    height: 15vh;
+    color: azure;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    margin: 25px;
+}
+
+#task{
+    box-shadow: 0px 5px 10px 1px rgb(125, 3, 240);
+}
+#project{
+    box-shadow: 0px 5px 10px 1px rgb(250, 12, 4);
+}
+#prev{
+    box-shadow: 0px 5px 10px 1px rgb(25, 30, 240);
+}
+#new{
+    box-shadow: 0px 5px 10px 1px rgb(248, 171, 4);
+}
+.sidebarTitle{
+    font-size: 13px;
+    color: #a4b0be;
+}
+.sidebarText{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    .sideBarComponent{
+        position: absolute;
+        top: 80px;
+        left :0px;
+        width : 30%;
+        z-index: -1;
+        background-color: #1e272e;
+    }
+}
+

@@ -1,0 +1,40 @@
+.clients_table_view{
+    overflow: scroll;
+    margin-bottom: 10px;
+}
+.clients_table_view::-webkit-scrollbar{
+    display: none;
+}
+.clientsTable{
+    margin-top: 10px;
+    align-items: center;
+    width: 100%;
+}
+.clients_table_head {
+    width : 20%;
+    color: #a4b0be;
+    background-color: #2f3640;
+    font-weight: bolder;
+    height: 40px;
+}
+
+.clients_table_data_odd{
+    width: 20%;
+    background-color: #1e272e;
+    color: white ;
+}
+
+.clients_table_data_even{
+    width: 20%;
+    background-color: #2f3640;
+    color: white ;
+
+}
+.clients_table_header_column {
+    border-right: 1px solid #57606f;
+    text-align: center;
+}
+.clients_table_data_column {
+    border-right: 1px solid #57606f;
+    text-align: center;
+}

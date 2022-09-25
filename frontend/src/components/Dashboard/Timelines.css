@@ -1,0 +1,55 @@
+.scroll1{
+    max-height: 200px;
+    overflow: scroll;
+   
+}
+.scroll2{
+ max-height: 170px;
+  overflow: scroll;
+ 
+}
+.scrolloverdue{
+  max-height: 300px;
+  overflow: scroll;
+}
+
+.hides::-webkit-scrollbar {
+    display: none;
+}
+
+
+.hides {
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
+}
+.table{
+    font-size: 12px;
+}
+
+.dropdownbg{
+    background-color:#FF5349;
+    border-color: #FF5349;
+    color:azure;
+ }
+ .theader{
+  color:azure;
+ }
+ .overdueheader{
+   color:#FF5349;
+ }
+
+ 
+ 
+ .overduefc{
+   color: azure;
+   font-size: 15px;
+ }
+ .nooverdue{
+   color:green;
+ }
+ .nooverdueimg{
+   height: 150px;
+   width: 150px;
+   position: static;
+ }
+ 

@@ -1,0 +1,320 @@
+/*!******************************* MAIN COMPONENT *******************************!*/
+.departmentsMainComponent {
+    position: absolute;
+    top: 80px;
+    left :0px;
+    bottom: 0px;
+    width : 100%;
+    z-index: -1;
+    background-color: #1e272e;
+}
+.departmentsMainComponent::-webkit-scrollbar{
+    display: none;
+}
+
+.departmentsSubComponent {
+    position: absolute;
+    top: 70px;
+    left :0px;
+    bottom: 0px;
+    width : 82%;
+    z-index: -1;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.addDepartmentsComponents{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding : 10px;
+    color: white;
+    overflow: scroll;
+}
+
+.addDepartmentsSubComponent {
+    padding: 10px;
+}
+
+.addDepartmentsComponents::-webkit-scrollbar{
+    display: none;
+}
+
+.hrTitleText{
+    color: #a4b0be;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hrForm{
+    display: grid;
+    grid-template-rows: 150px 80px;
+}
+
+.hrFormSub{
+    height: 100%;
+}
+
+.hrLabel{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 10px;
+}
+.hrTextInput{
+    background: #2f3640;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 50px;
+}
+.hrTextInput:focus{
+    outline: none;
+}
+.departments_addButtonContainer{
+    margin-top: 40px;
+    padding: 5px;
+    border-bottom : 3px solid red;
+    border-top : 2px solid #2f3640;
+    border-radius: 100px;
+    width: 200px;
+    justify-self: center;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.departments_addButton {
+    padding :5px;
+    text-align: center;
+}
+.departments_addButtonContainer:hover {
+    background: red;
+}
+
+.hrText {
+    color: white;
+}
+.multiSelect{
+    background: #1e272e;
+}
+.departments_select{
+    background-color:#FF5349;
+    border-color: #FF5349;
+    color:azure;
+    border-radius: 50px;
+}
+.departments_select:focus{
+    outline: none;
+    border: none;
+}
+
+.departments_table_view{
+    overflow: scroll;
+    margin-bottom: 10px;
+}
+.departments_table_view::-webkit-scrollbar{
+    display: none;
+}
+.departmentsTable{
+    margin-top: 10px;
+    align-items: center;
+    width: 96%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.departments_table_head {
+    width : 20%;
+    color: #a4b0be;
+    background-color: #2f3640;
+    font-weight: bolder;
+    height: 40px;
+}
+
+.departments_table_data_odd{
+    width: 20%;
+    background-color: #1e272e;
+    color: white ;
+}
+.departments_table_data_even{
+    width: 20%;
+    background-color: #2f3640;
+    color: white ;
+
+}
+.departments_table_header_column {
+    border-right: 1px solid #57606f;
+    text-align: center;
+}
+.departments_table_header_column_more{
+    border-left: 1px solid #57606f;
+    text-align: center;
+}
+.departments_table_data_column {
+    border-right: 1px solid #57606f;
+    text-align: center;
+}
+.departments_table_data_column_more {
+    border-right: 0px solid #57606f;
+}
+.departments_moreButton {
+    background-color: red;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.departments_searchBar {
+    align-items: center;
+    border-color: #1e272e;
+    display: grid;
+    grid-template-columns: 70% 5% 25%;
+    background-color: #2f3640 ;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+    width: 90%;
+}
+.departments_blankColumn {
+    height: 100%;
+    background-color: #1e272e;
+}
+.departments_searchIcon {
+    width :25px;
+    height :25px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    margin: 5px;
+}
+.departments_taskSearchBox{
+    color: white;
+    justify-content: center;
+    align-self: center;
+    margin: 5px;
+    height: 25px;
+    background: #2f3640;
+    border: 0px solid #57606f;
+}
+.departments_taskSearchBox:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .departmentsMainComponent {
+        position: absolute;
+        top: 250px;
+        left: 0px;
+        bottom: 0px;
+        padding-top: 80px;
+        width: 100%;
+        z-index: -1;
+        background-color: #1e272e;
+    }
+
+    .departmentsSubComponent {
+        position: static;
+        width: 100%;
+        z-index: -1;
+        background-color: #1e272e;
+        padding-bottom: 20px;
+    }
+}
+
+
+/******************************* SIDE BAR ***********************************/
+.sideBarDepartmentsComponent {
+    position: absolute;
+    top: 00px;
+    right :0px;
+    bottom: 0px;
+    width : 18%;
+    z-index: -1;
+    background-color: #2f3640;
+    /*display: grid;*/
+    /*grid-template-rows: 20% 80%;*/
+}
+
+.departmentsSideBarTitle{
+    color: #a4b0be;
+    text-align: center;
+    margin: 10px;
+    height: 120px;
+    font-size: 20px;
+}
+
+.departments_sidebar_employees_container{
+    position: absolute;
+    top: 120px;
+    padding-top: 10px;
+    bottom: 0px;
+    overflow: scroll;
+    width: 100%;
+}
+.departments_sidebar_employees_container::-webkit-scrollbar{
+    display: none;
+}
+.departments_sidebar_employee{
+    height: 250px;
+    width:90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    background: #1e272e;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+
+}
+#departments_sidebar_employee0 {
+    box-shadow: 0px 0px 10px 1px rgb(250, 12, 4);
+}
+#departments_sidebar_employee1 {
+    box-shadow: 0px 0px 10px 1px rgb(101, 59, 141);
+}
+#departments_sidebar_employee2 {
+    box-shadow: 0px 0px 10px 1px rgb(248, 171, 4);
+}
+#departments_sidebar_employee3 {
+    box-shadow: 0px 0px 10px 1px blue;
+}
+.departments_sidebar_error{
+    margin:10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.departments_sidebar_employee_name{
+    color:#a4b0be;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#departments_sidebar_employee_email{
+    font-size: 12px;
+    color: red;
+}
+
+.departments_sidebar_employee_image{
+    width: 50%;
+    height: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.departments_employee_avatar{
+    width: 100%;
+    height: 100px;
+}
+@media only screen and (max-width: 991px) {
+    .sideBarDepartmentsComponent {
+        position: unset;
+        bottom: unset;
+        width: 100%;
+        padding-top: 10px;
+        height: 200px;
+        z-index: -1;
+        background-color: #2f3640;
+    }
+}

@@ -1,0 +1,155 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #4e4c4c;
+}
+
+.buttonholder {
+  z-index: 100;
+}
+
+.serachbar {
+  z-index: 10;
+  position: absolute;
+  left: 60%;
+  bottom: 0px;
+  top: 80px;
+}
+
+.PAPER {
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 95%;
+  overflow: "hidden";
+}
+
+.deleteicon {
+  content: left;
+  margin: left 0px;
+  text-align: left;
+}
+
+
+
+.taskdeletebutton {
+  border: none;
+  color: #ffffff;
+  text-align: left;
+  font-size: 15px;
+  padding-top: 4px;
+  width: 100px;
+  height: 30px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  margin-right: 10px;
+}
+
+.buttondelete {
+  margin-top: 0px;
+  position: relative;
+  left: 75%;
+  z-index: 10;
+  border-radius: 4px;
+  background-color: rgb(19, 19, 43);
+  border: none;
+  color: #c4b9b9;
+  font-size: 10px;
+  width: 140px;
+  height: 30px;
+  margin-bottom: "100px";
+}
+
+.buttonsubmitactionaddtask {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #2f3640;
+  border: none;
+  color: #c4b9b9;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 4px;
+  width: 90px;
+  height: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom: 4px;
+  margin-right: 100px;
+}
+
+.bodyappear3viewtask {
+  z-index: 10;
+  position: fixed;
+  left: 85%;
+  bottom: 0px;
+  top: 80px;
+}
+
+.bodyappear4viewtask {
+  z-index: 10;
+  position: fixed;
+  left: 85%;
+  bottom: 0px;
+  top: 280px;
+}
+
+.bodyappear5viewtask {
+  z-index: 10;
+  position: fixed;
+  left: 85%;
+  bottom: 0px;
+  top: 480px;
+}
+
+.buttonviewtask {
+  color: rgb(189, 27, 27);
+  box-sizing: content-box;
+  height: 95px;
+  background: #252e35;
+  font-size: 20px;
+  text-align: left;
+  width: 50px;
+  padding: 90px;
+  padding-top: 10px;
+  padding-left: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+  opacity: 0.8;
+}
+.buttonviewtask span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.buttonviewtask span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.buttonviewtask:hover {
+  background-color: #dd2323;
+  opacity: 0.5;
+}
+.buttonviewtask:hover span {
+  padding-right: 25px;
+}
+.buttonviewtask:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.tableback{
+  background-color: #dd2323;
+}

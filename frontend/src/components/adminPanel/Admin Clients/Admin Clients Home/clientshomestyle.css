@@ -1,0 +1,277 @@
+
+.clientssMainComponent {
+    position: absolute;
+    top: 80px;
+    left :0px;
+    bottom: 0px;
+    width : 100%;
+    z-index: -1;
+    background-color: #1e272e;
+}
+.clientssMainComponent::-webkit-scrollbar{
+    display: none;
+}
+
+.clientsSubComponent {
+    position: absolute;
+    top: 70px;
+    left :0px;
+    bottom: 0px;
+    width : 82%;
+    z-index: -1;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 10% 40% 40%;
+}
+
+.clientsTitle{
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 3%;
+}
+.clients_no_error{
+    color: red;
+    text-align: center;
+    margin-left: 100px;
+    visibility: hidden;
+}
+.clients_error_message{
+    color: red;
+    text-align: center;
+    margin-left: 100px;
+}
+.addClientsComponents{
+    display: grid;
+    grid-template-columns: 50% 50% 50% 50%;
+    padding : 10px;
+    color: white;
+    overflow: scroll;
+}
+
+.addclientsSubComponent {
+    padding: 10px;
+}
+
+
+
+.hrTitleText{
+    color: #a4b0be;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hrForm{
+    display: grid;
+    grid-template-rows: 150px 80px;
+}
+
+.hrFormSub{
+    height: 100%;
+}
+
+.hrLabel{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 10px;
+}
+.hrTextInput{
+    background: #2f3640;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 50px;
+}
+.hrTextInput:focus{
+    outline: none;
+}
+.clients_addButtonContainer{
+    margin-top: 40px;
+    padding: 5px;
+    border-bottom : 3px solid red;
+    border-top : 2px solid #2f3640;
+    border-radius: 100px;
+    width: 200px;
+    justify-self: center;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.clients_addButton {
+    padding :5px;
+    text-align: center;
+}
+.clients_addButtonContainer:hover {
+    background: red;
+}
+
+.hrText {
+    color: white;
+}
+.multiSelect{
+    background: #1e272e;
+}
+.clients_table_view{
+    overflow: scroll;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.clients_table_view::-webkit-scrollbar{
+    display: none;
+}
+.clientsTable{
+    margin-top: 50px;
+    align-items: center;
+    width: 100%;
+}
+.clients_table_head {
+    width : 20%;
+    color: #a4b0be;
+    background-color: #2f3640;
+    font-weight: bolder;
+    height: 40px;
+}
+
+.clients_table_data_odd{
+    width: 20%;
+    background-color: #1e272e;
+    color: white ;
+}
+
+.clients_table_data_even{
+    width: 20%;
+    background-color: #2f3640;
+    color: white ;
+
+}
+.clients_table_header_column {
+    border-right: 1px solid #57606f;
+    text-align: center;
+}
+.clients_table_data_column {
+    border-right: 1px solid #57606f;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .clientsMainComponent {
+        position: absolute;
+        top: 250px;
+        left: 0px;
+        bottom: 0px;
+        padding-top: 80px;
+        width: 100%;
+        z-index: -1;
+        background-color: #1e272e;
+    }
+
+    .clientsSubComponent {
+        position: static;
+        width: 100%;
+        z-index: -1;
+        background-color: #1e272e;
+        padding-bottom: 20px;
+    }
+}
+
+/******************************* SIDE BAR ***********************************/
+.sideBarClientsComponent {
+    position: absolute;
+    top: 00px;
+    right :0px;
+    bottom: 0px;
+    width : 18%;
+    z-index: -1;
+    background-color: #2f3640;
+}
+
+.clientsSideBarTitle{
+    position: absolute;
+    top: 80px;
+    color: #a4b0be;
+    text-align: center;
+    margin: 10px;
+    height: 80px;
+    width: 100%;
+}
+
+.clients_sidebar_client_container{
+    position: absolute;
+    top: 160px;
+    padding-top: 10px;
+    bottom: 0px;
+    overflow: scroll;
+    width: 100%;
+}
+.clients_sidebar_client_container::-webkit-scrollbar{
+    display: none;
+}
+.clients_sidebar_client{
+    height: 220px;
+    width:90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    background: #1e272e;
+    padding-top: 10px;
+    padding-left: 10px;
+    overflow: scroll;
+    border-radius: 20px;
+}
+#clients_sidebar_client0 {
+    box-shadow: 0px 0px 10px 1px rgb(250, 12, 4);
+}
+#clients_sidebar_client1 {
+    box-shadow: 0px 0px 10px 1px rgb(101, 59, 141);
+}
+#clients_sidebar_client2 {
+    box-shadow: 0px 0px 10px 1px rgb(248, 171, 4);
+}
+#clients_sidebar_client3 {
+    box-shadow: 0px 0px 10px 1px blue;
+}
+.clients_sidebar_error{
+    margin:10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.clients_sidebar_client_name{
+    color:#a4b0be;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.clients_sidebar_client_title{
+    color:#a4b0be;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 2vh;
+    font-weight: bolder;
+    border-bottom: 1px solid #a4b0be;
+    border-radius: 30px;
+}
+.clients_sidebar_client_email{
+    color:red;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 991px) {
+    .sideBarDepartmentsComponent {
+        position: unset;
+        bottom: unset;
+        width: 100%;
+        padding-top: 10px;
+        height: 200px;
+        z-index: -1;
+        background-color: #2f3640;
+    }
+}
+

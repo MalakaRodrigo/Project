@@ -1,0 +1,229 @@
+/*!******************************* MAIN COMPONENT *******************************!*/
+.projectsMainComponent {
+    position: absolute;
+    top: 80px;
+    left :0px;
+    bottom: 0px;
+    padding-top: 80px;
+    width : 100%;
+    z-index: -1;
+    background-color: #1e272e;
+}
+
+.projectsSubComponent {
+    position: absolute;
+    top: 0px;
+    left :0px;
+    bottom: 0px;
+    width : 82%;
+    z-index: -1;
+    background-color: #1e272e;
+}
+
+.projectsTable{
+    position: absolute;
+    top : 80px;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.table_head {
+    width : 20%;
+    color: #a4b0be;
+    background-color: #2f3640;
+    font-weight: bolder;
+}
+
+.table_data_odd{
+    width: 20%;
+    background-color: #1e272e;
+    color: white ;
+}
+.table_data_even{
+    width: 20%;
+    background-color: #2f3640;
+    color: white ;
+
+}
+.table_header_column {
+    border-right: 1px solid #57606f;
+    text-align: center;
+}
+.table_header_column_more{
+    border-left: 1px solid #57606f;
+    text-align: center;
+}
+.table_data_column {
+    border-right: 1px solid #57606f;
+    text-align: center;
+}
+.table_data_column_more {
+    border-left: 1px solid #57606f;
+}
+.moreButton {
+    background-color: red;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.searchBar {
+    align-items: center;
+    border-color: #1e272e;
+    display: grid;
+    grid-template-columns: 70% 5% 25%;
+    background-color: #2f3640 ;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+    padding: 0;
+    width: 90%;
+}
+.blankColumn {
+    height: 100%;
+    background-color: #1e272e;
+}
+.searchIcon {
+    width :25px;
+    height :25px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    margin: 5px;
+}
+.searchText{
+    color: white;
+    justify-content: center;
+    align-self: center;
+    margin: 5px;
+    height: 25px;
+    border-radius: 10%;
+}
+.taskBoardButton {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    background-color: red;
+    width: 200px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px;
+}
+.taskBoardText{
+    margin: 0px;
+    height: 100%;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 991px) {
+    .projectsMainComponent {
+        position: absolute;
+        top: 250px;
+        left :0px;
+        bottom: 0px;
+        padding-top: 80px;
+        width : 100%;
+        z-index: -1;
+        background-color: #1e272e;
+    }
+
+    .projectsSubComponent {
+        position: static;
+        width : 100%;
+        z-index: -1;
+        background-color: #1e272e;
+        padding-bottom: 20px;
+    }
+
+    .searchBar {
+        position: unset;
+        align-items: center;
+        border-color: #1e272e;
+        display: grid;
+        grid-template-columns: 70% 5% 25%;
+        background-color: #2f3640 ;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+
+    .projectsTable {
+        position: unset;
+    }
+
+
+}
+
+
+/******************************* SIDE BAR ***********************************/
+.sideBarComponent {
+    position: absolute;
+    top: 00px;
+    right :0px;
+    bottom: 0px;
+    width : 18%;
+    z-index: -1;
+    background-color: #2f3640;
+}
+
+.sideBarElement {
+    width: 100%;
+    height : 15%;
+    /*justify-content: center;*/
+    /*text-align: center;*/
+    color: white;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+}
+.outCircle {
+    width :20px;
+    height: 20px;
+    justify-self: center;
+    border-radius: 20px;
+    border: 1px solid red;
+}
+.innerCircle{
+    width: 10px;
+    height: 10px;
+    justify-self: center;
+    margin-left: 4px;
+    margin-top: 4px;
+    border-radius: 10px;
+    background-color: red;
+    border: 1px solid red;
+}
+.elementtext {
+
+}
+@media only screen and (max-width: 991px) {
+    .sideBarComponent{
+        position: unset;
+        bottom: unset;
+        width: 100%;
+        padding-top: 10px;
+        height: 200px;
+        z-index: -1;
+        background-color: #2f3640;
+    }
+}
+
+.title {
+    color : white;
+}
+.SEARCHR{
+    border-radius: 10px;
+    background-color: #2f3640;
+}
+li{
+    list-style: none;
+}

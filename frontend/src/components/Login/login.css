@@ -1,0 +1,130 @@
+.pos {
+    width: 100vw;
+    height: 100%;
+    margin-top: 10vh;
+    display: inline-block;
+    background-size: cover;
+    bottom:0px
+    
+}
+
+.subLoginForm {
+   bottom:0px
+}
+
+.loginformTitle {
+    color: #a4b0be;
+    padding-top: 20px;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 50px;
+    letter-spacing: 5px;
+    /*background: -webkit-linear-gradient(*/
+    /*        0deg,*/
+    /*        red,*/
+    /*        grey,*/
+    /*        white);*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+    /*animation-iteration-count: infinite;*/
+}
+
+@keyframes titleAnimation {
+    0% {margin-top:0%;}
+    10% {margin-top:2%;}
+    20% {margin-top:4%;}
+    30% {margin-top:6%;}
+    40% {margin-top:8%;}
+    50% {margin-top:10%;}
+    60% {margin-top:12%;}
+    70% {margin-top:14%;}
+    80% {margin-top:16%;}
+    90% {bmargin-top:18%;}
+    100% {bmargin-top:20%;}
+
+}
+
+.loginformtextbox {
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.loginformlabels {
+    padding-top: 20px;
+    width: 60%;
+    margin-left: 20%;
+    color: azure;
+}
+
+.loginform {
+    width: 100%;
+    height: 100vh;
+    border-color: #FF5349;
+    background-color: #1e272e;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.loginbutton {
+    margin-top: 10px;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 50px;
+    padding: 5px;
+    background: red;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+.loginbutton:hover {
+    margin-top: 7px;
+    box-shadow: 0px 0px 1px 1px rgb(250, 12, 4);
+}
+
+.loginFormTextInput {
+    width: 60%;
+    margin-left: 20%;
+    background: #2f3640;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+.subLogoLoginForm {
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.loginImage {
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    opacity: 0.6;
+    box-shadow: 0px 0px 20px 1px grey;
+    
+}
+
+@media only screen and (max-width: 991px) {
+    .loginform {
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 100vw;
+        height: 100vh;
+        background-image: url("./bg.png");
+        background-size: cover;
+    }
+
+
+}

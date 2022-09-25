@@ -1,0 +1,158 @@
+.admindashboardsidemainComponent {
+  position: fixed;
+  top: 80px;
+  right :0px;
+  bottom: 0px;
+  width : 18%;
+  background-color: #2f3640;
+    
+}
+
+
+.title {
+    color : white;
+}
+.admincpbutton {
+    
+    background-color: #1e272e;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 15vh;
+    width: 85%;
+    color: #a4b0be;
+    
+    box-shadow: 0px 0px 10px 1px rgb(17, 236, 9);
+    font-size: 2vh;
+  }
+  .adminptbutton{
+    background-color: #1e272e;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 20px  ;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 15vh;
+    color: #a4b0be;
+    width: 85%;
+    box-shadow: 0px 0px 10px 1px rgb(101, 59, 141);
+    font-size: 2vh;
+  }
+
+  .adminctbutton{
+    background-color: #1e272e;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 15vh;
+    width: 85%;
+    color: #a4b0be;
+    box-shadow: 0px 0px 10px 1px rgb(248, 171, 4);
+    font-size: 2vh;
+  }
+  .adminctbutton1{
+    background-color: #1e272e;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 15vh;
+    width: 85%;
+    color: #a4b0be;
+    box-shadow: 0px 0px 10px 1px rgb(248, 4, 98);
+    font-size: 2vh;
+  }
+  .adminctbutton2{
+    background-color: #1e272e;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 15vh;
+    width: 85%;
+    color: #a4b0be;
+    box-shadow: 0px 0px 10px 1px rgb(250, 12, 4);
+    font-size: 2vh;
+  }
+  .adminsiderbarfont{
+    font-size: 5vh;
+    
+  }
+  @media only screen and (max-width: 991px) {
+    .admindashboardsidemainComponent{
+        position: static;
+        top: 0px;
+        left :0px;
+        bottom: 0px;
+        width : 100%;
+        z-index: -1;
+    }
+    .adminctbutton{
+      background-color: #1e272e;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 20px;
+      width: 100%;
+      color: azure;
+      box-shadow: 0px 5px 10px 1px rgb(248, 171, 4);
+      font-size: 3vh;
+    }
+    .adminptbutton{
+      background-color: #1e272e;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 20px;
+      width: 100%;
+      color: azure;
+      box-shadow: 0px 5px 10px 1px rgb(101, 59, 141);
+      font-size: 3vh;
+    }
+    .admincpbutton {
+    
+      background-color: #1e272e;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 20px;
+      width: 100%;
+      color: azure;
+      box-shadow: 0px 5px 10px 1px rgb(250, 12, 4);
+      font-size: 3vh;
+    }
+  
+  }
